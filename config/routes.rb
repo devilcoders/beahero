@@ -1,4 +1,6 @@
 Beahero::Application.routes.draw do
+  resources :pets
+
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 
   authenticated :user do

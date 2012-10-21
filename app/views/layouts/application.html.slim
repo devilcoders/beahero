@@ -14,7 +14,8 @@ html
       header
         = render 'layouts/navigation'
         = render 'layouts/messages'
-      #main role="main"
-        = yield
+      #main role="main" style="padding-top: 50px"
+        .row
+          = yield
       footer
     /! ! end of #container

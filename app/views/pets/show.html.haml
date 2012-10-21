@@ -1,0 +1,30 @@
+%p#notice= notice
+
+%p
+  %b Nickname:
+  = @pet.nickname
+%p
+  %b Age:
+  = @pet.age
+%p
+  %b Description:
+  = @pet.description
+%p
+  %b Location:
+  = @pet.location
+%p
+  %b Sex:
+  = @pet.sex
+%p
+  %b Color:
+  = @pet.color
+%p
+  %b Breed:
+  = @pet.breed
+%p
+  %b Features:
+  = @pet.features
+
+= link_to 'Edit', edit_pet_path(@pet)
+\|
+= link_to 'Back', pets_path

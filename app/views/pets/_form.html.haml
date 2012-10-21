@@ -1,0 +1,15 @@
+= simple_form_for(@pet) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :nickname
+    = f.input :age
+    = f.input :description
+    = f.input :location
+    = f.input :sex
+    = f.input :color
+    = f.input :breed
+    = f.input :features
+
+  .form-actions
+    = f.button :submit

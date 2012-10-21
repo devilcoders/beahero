@@ -4,10 +4,10 @@
 
 // Grid Settings
 
-// $rowWidth: 1000px;
-// $columnGutter: 30px;
-// $totalColumns: 12;
-// $mobileTotalColumns: 4;
+$rowWidth: 1400px;
+$columnGutter: 0px;
+$totalColumns: 12;
+$mobileTotalColumns: 4;
 
 // Text Direction Settings
 
@@ -104,4 +104,5 @@
 // $topBarSearchWidth: 200px;
 // $topBarBreakPoint: 940px; // Change to 9999px for always mobile layout
 // $topBarNavToggleSize: 8px;
+
 @import 'foundation';
